@@ -152,12 +152,7 @@ app.use(expressValidator());
 }));
 */
 
-app.use(express.session({ store: new RedisStore({
-  host:'127.0.0.1',
-  port:6380,
-  prefix:'sess'
-}), secret: 'SEKR37' }));
-
+app.use(express.session({ store: new RedisStore }));
 app.use(flash());
 
 

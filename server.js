@@ -19,7 +19,7 @@ var recipeRouter = require('./controllers/recipes');
 var commentRouter = require('./controllers/comments');
 var loginRouter = require('./controllers/login')
 
-
+var RedisStore = require('connect-redis')(session);
 
 
 
@@ -146,14 +146,13 @@ app.set('view engine', 'hbs')
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(expressValidator());
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(session({
-    cookie: { maxAge: 600000 },  // 600000 milisec
-    secret: 'titkos szovegeles',
+    cookie: {maxAge: 600000},
+    secret: 'titkos szoveg',
     resave: false,
     saveUninitialized: false,
 }));
-
-
 
 
 

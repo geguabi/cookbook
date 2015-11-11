@@ -20,7 +20,7 @@ var commentRouter = require('./controllers/comments');
 var loginRouter = require('./controllers/login')
 
 
-var RedisStore = require('connect-redis')(express);
+
 
 
 var passport = require('passport');

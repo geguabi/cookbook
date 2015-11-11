@@ -19,7 +19,7 @@ var recipeRouter = require('./controllers/recipes');
 var commentRouter = require('./controllers/comments');
 var loginRouter = require('./controllers/login')
 
-
+var RedisStore = require('connect-redis')(express);
 
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
@@ -144,12 +144,20 @@ app.set('view engine', 'hbs')
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(expressValidator());
-app.use(session({
+/*app.use(session({
     cookie: { maxAge: 600000 },  // 600000 milisec
     secret: 'titkos szovegeles',
     resave: false,
     saveUninitialized: false,
 }));
+*/
+
+app.use(express.session({ store: new RedisStore({
+  host:'127.0.0.1',
+  port:6380,
+  prefix:'sess'
+}), secret: 'SEKR37' }));
+
 app.use(flash());
 
 

@@ -9,8 +9,8 @@ module.exports = {
     },
     connections: {
         default: {
-            //adapter: 'disk',
-           adapter: 'memory',  // minden szerver újraindításnál kiürül a hibalista, ha memoryban tárolunk
+            adapter: 'disk',
+           //adapter: 'memory',  // minden szerver újraindításnál kiürül a hibalista, ha memoryban tárolunk
         },
         memory: {
             adapter: 'memory'

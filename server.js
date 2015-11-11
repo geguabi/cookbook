@@ -19,7 +19,7 @@ var recipeRouter = require('./controllers/recipes');
 var commentRouter = require('./controllers/comments');
 var loginRouter = require('./controllers/login')
 
-var MongoStore = require('connect-mongo')(express);
+
 var RedisStore = require('connect-redis')(express);
 
 

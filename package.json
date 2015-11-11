@@ -21,5 +21,19 @@
     "test": "node_modules/mocha/bin/mocha **/*.test.js",
     "watch-test": "node_modules/mocha/bin/mocha --watch **/*.test.js",
     "start": "node server.js"
-  }
+  },
+  "name": "thecookbook",
+  "description": ",-----.,--.                  ,--. ,---.   ,--.,------.  ,------.     '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--,      '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'     -----------------------------------------------------------------",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geguabi/cookbook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geguabi/cookbook/issues"
+  },
+  "homepage": "https://github.com/geguabi/cookbook#readme"
 }

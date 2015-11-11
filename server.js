@@ -19,7 +19,7 @@ var recipeRouter = require('./controllers/recipes');
 var commentRouter = require('./controllers/comments');
 var loginRouter = require('./controllers/login')
 
-var dateFormat = require('dateformat');
+
 
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;

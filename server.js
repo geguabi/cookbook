@@ -20,6 +20,8 @@ var commentRouter = require('./controllers/comments');
 var loginRouter = require('./controllers/login')
 
 var MongoStore = require('connect-mongo')(express);
+var RedisStore = require('connect-redis')(express);
+
 
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
@@ -152,13 +154,13 @@ app.use(expressValidator());
 }));
 */
 
-app.use(express.session({
-  store: new MongoStore({
-    db: 'myapp',
-    host: '127.0.0.1',
-    port: 3355
-  })
-}));
+app.use(express.session({ store: new RedisStore({
+  host:'127.0.0.1',
+  port:6380,
+  prefix:'sess'
+}), secret: 'SEKR37' }));
+
+
 app.use(flash());
 
 

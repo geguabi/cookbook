@@ -1,0 +1,94 @@
+{{#extend "scripts"}}
+<script src="/js/list.js"></script>
+{{/extend}}
+<a href="list" class="btn btn-default btn-sm">Vissza a listaoldalra</a>
+{{#each messages}}
+<div class="alert alert-dismissible alert-success">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    {{this}}
+</div>
+{{/each}}
+
+{{#each receptek}}
+    <img src={{pic}}>
+{{/each}}
+
+<div class="page-header">
+    <h1>Hozzávalók</h1>
+</div>
+
+<table class="table table-striped table-hover " id="errorTable">
+    <thead>
+        <tr>
+            
+        </tr>   
+    </thead>
+    <tbody>
+        {{#each recipes.comments}}
+            <li href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">{{username}} <small>{{date}}</small></h4>
+                <h5 class="list-group-item-heading">Hozzávalók: </h5>
+                <p class="list-group-item-text">
+                <ul>
+                {{#each text}}
+                    <li>{{this}}</li>
+                {{/each}}
+                </ul>
+                </p>
+                <h5 class="list-group-item-heading">Elkészítés: </h5>
+                <p class="list-group-item-text">{{making}}</p>
+            </li>
+        {{/each}}
+    </tbody>
+</table>
+
+
+
+
+{{#extend "scripts"}}
+<script src="/lib/bootstrap-validator/dist/validator.min.js"></script>
+{{/extend}}
+<div class="page-header">
+    <h1>Új hozzávaló felvitele</h1>
+</div>
+
+<form class="form-horizontal" method="post" data-toggle="validator">
+    <fieldset>
+        
+        <div class="form-group
+            {{#if validationErrors.hozzavalok}}
+                has-error
+            {{/if}}
+        ">
+            <label for="hozzavalok" class="col-lg-2 control-label">Hozzávalók</label>
+            <div class="col-lg-10">
+                <textarea required class="form-control" rows="3" id="hozzavalok" name="hozzavalok">{{data.hozzavalok}}</textarea>
+                
+                
+                {{#if validationErrors.hozzavalok}}
+                    <span class="help-block">{{validationErrors.hozzavalok.msg}}</span>
+                {{/if}}
+                <div class="help-block with-errors"></div>
+            </div>
+            
+            <label for="making" class="col-lg-2 control-label">Elkészítés</label>
+            <div class="col-lg-10">
+               
+                <textarea required class="form-control" rows="3" id="making" name="making">{{data.making}}</textarea>
+                <span class="help-block">.</span>
+                {{#if validationErrors.making}}
+                    <span class="help-block">{{validationErrors.making.msg}}</span>
+                {{/if}}
+                <div class="help-block with-errors"></div>
+            </div>
+            
+            
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </fieldset>
+</form>              

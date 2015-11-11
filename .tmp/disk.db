@@ -1,0 +1,416 @@
+{
+  "data": {
+    "recipe": [
+      {
+        "status": "new",
+        "name": "Rizsa",
+        "description": "finom volt",
+        "pic": "http://static.femina.hu/fogyokura/rizsdieta/rizs3.jpg",
+        "date": "2015-11-11T08:22:06.923Z",
+        "createdAt": "2015-11-10T19:07:52.343Z",
+        "updatedAt": "2015-11-11T08:22:06.925Z",
+        "id": 3
+      },
+      {
+        "status": "new",
+        "name": "bab",
+        "description": "fddsadsadasd",
+        "pic": "a",
+        "date": "2015-11-11T09:27:05.285Z",
+        "createdAt": "2015-11-11T09:27:05.287Z",
+        "updatedAt": "2015-11-11T09:27:05.287Z",
+        "id": 9
+      }
+    ],
+    "user": [
+      {
+        "surname": "a",
+        "forename": "a",
+        "neptun": "a",
+        "password": "$2a$10$J68iyRadV7v0fnMUVBnOpef7Yv23Vn5KgQ.LN1OW88Db4/2z151Aq",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-10T16:45:10.693Z",
+        "updatedAt": "2015-11-10T16:45:10.693Z",
+        "id": 1
+      }
+    ],
+    "comment": [
+      {
+        "text": [
+          "safsadsadsadas"
+        ],
+        "recipe": null,
+        "date": "2015-11-10T15:02:27.636Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T15:02:27.637Z",
+        "updatedAt": "2015-11-10T15:02:27.637Z",
+        "id": 1
+      },
+      {
+        "text": [
+          "fdsfsdfsdf"
+        ],
+        "recipe": null,
+        "date": "2015-11-10T15:14:04.608Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T15:14:04.609Z",
+        "updatedAt": "2015-11-10T15:14:04.609Z",
+        "id": 2
+      },
+      {
+        "text": [
+          "eeeeeeeeeee"
+        ],
+        "recipe": null,
+        "date": "2015-11-10T16:45:37.858Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T16:45:37.860Z",
+        "updatedAt": "2015-11-10T16:45:37.860Z",
+        "id": 3
+      },
+      {
+        "text": [
+          "wwwwwwwwwwwww"
+        ],
+        "recipe": null,
+        "date": "2015-11-10T16:57:06.490Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T16:57:06.491Z",
+        "updatedAt": "2015-11-10T16:57:06.491Z",
+        "id": 4
+      },
+      {
+        "text": [
+          "ccccccccccccccccccccccccccccccc"
+        ],
+        "recipe": null,
+        "date": "2015-11-10T17:20:00.295Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T17:20:00.298Z",
+        "updatedAt": "2015-11-10T17:20:00.298Z",
+        "id": 5
+      },
+      {
+        "text": [
+          "fafassafsafa"
+        ],
+        "recipe": null,
+        "date": "2015-11-10T17:26:11.481Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T17:26:11.484Z",
+        "updatedAt": "2015-11-10T17:26:11.484Z",
+        "id": 6
+      },
+      {
+        "text": [
+          "334543543"
+        ],
+        "recipe": null,
+        "date": "2015-11-10T17:29:38.906Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T17:29:38.907Z",
+        "updatedAt": "2015-11-10T17:29:38.907Z",
+        "id": 7
+      },
+      {
+        "text": [
+          "sadas"
+        ],
+        "recipe": 0,
+        "date": "2015-11-10T17:38:00.752Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T17:38:00.755Z",
+        "updatedAt": "2015-11-10T17:38:00.755Z",
+        "id": 8
+      },
+      {
+        "text": [
+          "aaaaaaaaaa"
+        ],
+        "recipe": 1,
+        "date": "2015-11-10T17:42:07.620Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T17:42:07.622Z",
+        "updatedAt": "2015-11-10T17:42:07.622Z",
+        "id": 9
+      },
+      {
+        "text": [
+          "gggggg"
+        ],
+        "recipe": 1,
+        "date": "2015-11-10T17:43:37.577Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T17:43:37.578Z",
+        "updatedAt": "2015-11-10T17:43:37.578Z",
+        "id": 10
+      },
+      {
+        "text": [
+          "bbbbbbbbb"
+        ],
+        "recipe": 2,
+        "date": "2015-11-10T17:44:46.795Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T17:44:46.796Z",
+        "updatedAt": "2015-11-10T17:44:46.796Z",
+        "id": 11
+      },
+      {
+        "text": [
+          "ez"
+        ],
+        "recipe": 1,
+        "date": "2015-11-10T18:03:04.226Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T18:03:04.228Z",
+        "updatedAt": "2015-11-10T18:03:04.228Z",
+        "id": 12
+      },
+      {
+        "text": [
+          "dsadsadas\r\ndsadsadas\r\n"
+        ],
+        "making": "rrrrrrrrrrr",
+        "recipe": 1,
+        "date": "2015-11-10T18:36:04.945Z",
+        "username": "anonymous (test)",
+        "createdAt": "2015-11-10T18:36:04.947Z",
+        "updatedAt": "2015-11-10T18:36:04.947Z",
+        "id": 13
+      },
+      {
+        "text": [
+          "tttt"
+        ],
+        "making": "fggdgdfg",
+        "recipe": 1,
+        "username": "anonymous (test)",
+        "date": "2015-11-10T18:56:41.301Z",
+        "createdAt": "2015-11-10T18:56:41.303Z",
+        "updatedAt": "2015-11-10T18:56:41.303Z",
+        "id": 14
+      },
+      {
+        "text": [
+          "asd"
+        ],
+        "making": "fdfsdfdsf",
+        "recipe": 3,
+        "username": "anonymous (test)",
+        "date": "2015-11-10T21:40:11.809Z",
+        "createdAt": "2015-11-10T21:40:11.810Z",
+        "updatedAt": "2015-11-10T21:40:11.810Z",
+        "id": 15
+      },
+      {
+        "text": [
+          "adasda"
+        ],
+        "making": "ffasdasdas",
+        "recipe": 6,
+        "username": "anonymous (test)",
+        "date": "2015-11-10T21:47:02.217Z",
+        "createdAt": "2015-11-10T21:47:02.218Z",
+        "updatedAt": "2015-11-10T21:47:02.218Z",
+        "id": 16
+      },
+      {
+        "text": [
+          "rtertet, erwrewr"
+        ],
+        "making": "rwerwerwer",
+        "recipe": 3,
+        "username": "anonymous (test)",
+        "date": "2015-11-10T23:28:24.399Z",
+        "createdAt": "2015-11-10T23:28:24.400Z",
+        "updatedAt": "2015-11-10T23:28:24.400Z",
+        "id": 17
+      },
+      {
+        "text": [
+          "aaaa",
+          " bbbbb",
+          "cccc"
+        ],
+        "making": "dsadasdsa",
+        "recipe": 8,
+        "username": "anonymous (test)",
+        "date": "2015-11-11T08:49:25.407Z",
+        "createdAt": "2015-11-11T08:49:25.408Z",
+        "updatedAt": "2015-11-11T08:49:25.408Z",
+        "id": 18
+      },
+      {
+        "text": [
+          "liszt",
+          " cukor",
+          " tojás"
+        ],
+        "making": "így úgy",
+        "recipe": 8,
+        "username": "anonymous (test)",
+        "date": "2015-11-11T09:11:53.539Z",
+        "createdAt": "2015-11-11T09:11:53.542Z",
+        "updatedAt": "2015-11-11T09:11:53.542Z",
+        "id": 19
+      },
+      {
+        "text": [
+          "ez",
+          " az",
+          " amaz"
+        ],
+        "making": "dsadasfsafa",
+        "recipe": 9,
+        "username": "anonymous (test)",
+        "date": "2015-11-11T09:27:23.815Z",
+        "createdAt": "2015-11-11T09:27:23.816Z",
+        "updatedAt": "2015-11-11T09:27:23.816Z",
+        "id": 20
+      },
+      {
+        "text": [
+          "ha",
+          " ha",
+          " he",
+          "heha"
+        ],
+        "making": "wert",
+        "recipe": 9,
+        "username": "anonymous (test)",
+        "date": "2015-11-11T09:35:24.301Z",
+        "createdAt": "2015-11-11T09:35:24.303Z",
+        "updatedAt": "2015-11-11T09:35:24.303Z",
+        "id": 21
+      }
+    ]
+  },
+  "schema": {
+    "recipe": {
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "date": {
+        "type": "datetime"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "new",
+          "assigned",
+          "success",
+          "rejected",
+          "pending"
+        ]
+      },
+      "pic": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "avatar": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "comment": {
+      "date": {
+        "type": "datetime"
+      },
+      "text": {
+        "type": "array"
+      },
+      "making": {
+        "type": "string"
+      },
+      "username": {
+        "type": "string",
+        "defaultsTo": "anonymous (test)"
+      },
+      "recipe": {
+        "type": "integer",
+        "model": "recipe",
+        "foreignKey": true,
+        "alias": "recipe"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "comment": {
+      "id": 21
+    },
+    "recipe": {
+      "id": 9
+    },
+    "user": {
+      "id": 1
+    }
+  }
+}

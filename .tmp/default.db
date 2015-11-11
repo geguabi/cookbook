@@ -1,0 +1,63 @@
+{
+  "data": {
+    "error": [
+      {
+        "status": "assigned",
+        "location": "qqq",
+        "description": "vvv",
+        "date": "2015-10-05T08:45:49.415Z",
+        "createdAt": "2015-10-05T08:45:49.416Z",
+        "updatedAt": "2015-10-05T08:45:49.416Z",
+        "id": 1
+      },
+        "status": "ready",
+        "location": "fsf",
+        "description": "sds",
+        "date": "2015-10-05T08:45:49.415Z",
+        "createdAt": "2015-10-05T08:45:49.416Z",
+        "updatedAt": "2015-10-05T08:45:49.416Z",
+        "id": 2
+      }
+    ]
+  },
+  "schema": {
+    "error": {
+      "date": {
+        "type": "datetime"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "new",
+          "assigned",
+          "success",
+          "rejected",
+          "pending"
+        ]
+      },
+      "location": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "error": {
+      "id": 1
+    }
+  }
+}

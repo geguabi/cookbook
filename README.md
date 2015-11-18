@@ -66,11 +66,11 @@ Egy felhasználóhoz több recept is tartozhat, illetve egy recepthez több hozz
  * GET /recipes/list: recept lista oldal
  * GET /recipes/new: új recept felvitele
  * POST /recipes/new: új recept felvitele, adatok küldése
- * GET /recipes/:id: recept adatai, hozzávalók, elkészítés listázása
- * POST /recipes/:id: új hozzávalók, elkészítés felvitele
- * GET /update:id: recept módosítása oldal
- * POST /update:id: módosított recept adatainak felküldése
- * GET /delete:id: recept törlése
+ * GET /recipes/:id : recept adatai, hozzávalók, elkészítés listázása
+ * POST /recipes/:id : új hozzávalók, elkészítés felvitele
+ * GET /update:id : recept módosítása oldal
+ * POST /update:id : módosított recept adatainak felküldése
+ * GET /delete:id : recept törlése
  
 ##Interfész
 ![Interfész](https://cloud.githubusercontent.com/assets/14271837/11242925/395adb3e-8e05-11e5-85ae-823434964484.png)

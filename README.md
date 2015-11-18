@@ -56,7 +56,7 @@ a felhasználónév, tehát két ugyanolyan felhasználó nem szerepelhet az ada
 Egy felhasználóhoz több recept is tartozhat, illetve egy recepthez több hozzávalólista/elkészítés kapcsolódhat
 
 ##Folyamatok
-![Folyamatdiagram] (https://github.com/geguabi/cookbook/blob/master/documentation/activity_d.png)
+![Folyamatdiagram] (https://cloud.githubusercontent.com/assets/14271837/11242922/33a5840a-8e05-11e5-9eec-6d03b971df80.png)
 
 ##Végpontok
  * GET /: főoldal
@@ -73,7 +73,7 @@ Egy felhasználóhoz több recept is tartozhat, illetve egy recepthez több hozz
  * GET /delete:id: recept törlése
  
 ##Interfész
-![Interfész](https://github.com/geguabi/cookbook/blob/master/documentation/page_view.png)
+![Interfész](https://cloud.githubusercontent.com/assets/14271837/11242925/395adb3e-8e05-11e5-85ae-823434964484.png)
 
 A bal felső sarokban szerepel az alkalmazás neve, amelyre kattintva a weboldalaknál megszokottan a főoldalra irányít.
 Ha nem vagyunk bejelentkezve, akkor jobb felső sarokban lehet a bejelentkezés gombra kattintani, ami átvisz a login oldalra.

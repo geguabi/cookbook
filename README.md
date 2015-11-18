@@ -19,6 +19,7 @@ Funkcionális elvárások
  * Felhasználóként szeretnék felvinni egy receptet, leírással és képpel --> Recept felvitele
  * Felhasználóként szeretnék hozzávalókat és elkészítési módokat csatolni a felvitt receptekhez
  * Legyen lehetőségem módosítani és törölni az adott receptet
+ 
 Nem funkcionális követelmények
  * Felhasználóbarát, ergonomikus elrendezés és kinézet.
  * Gyors működés.
@@ -57,18 +58,18 @@ Egy felhasználóhoz több recept is tartozhat, illetve egy recepthez több hozz
 ![Folyamatdiagram] (https://github.com/geguabi/cookbook/blob/master/documentation/activity_d.png)
 
 ##Végpontok
-GET /: főoldal
-GET /help: leírás a használatról
-GET /login: bejelentkező oldal
-POST /login: bejelentkezési adatok felküldése
-GET /recipes/list: recept lista oldal
-GET /recipes/new: új recept felvitele
-POST /recipes/new: új recept felvitele, adatok küldése
-GET /recipes/:id: recept adatai, hozzávalók, elkészítés listázása
-POST /recipes/:id: új hozzávalók, elkészítés felvitele
-GET /update:id: recept módosítása oldal
-POST /update:id: módosított recept adatainak felküldése
-GET /delete:id: recept törlése
+*GET /: főoldal
+*GET /help: leírás a használatról
+*GET /login: bejelentkező oldal
+*POST /login: bejelentkezési adatok felküldése
+*GET /recipes/list: recept lista oldal
+*GET /recipes/new: új recept felvitele
+*POST /recipes/new: új recept felvitele, adatok küldése
+*GET /recipes/:id: recept adatai, hozzávalók, elkészítés listázása
+*POST /recipes/:id: új hozzávalók, elkészítés felvitele
+*GET /update:id: recept módosítása oldal
+*POST /update:id: módosított recept adatainak felküldése
+*GET /delete:id: recept törlése
 ##Interfész
 ![Interfész](https://github.com/geguabi/cookbook/blob/master/documentation/page_view.png)
 

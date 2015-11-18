@@ -70,6 +70,7 @@ Egy felhasználóhoz több recept is tartozhat, illetve egy recepthez több hozz
  * GET /update:id: recept módosítása oldal
  * POST /update:id: módosított recept adatainak felküldése
  * GET /delete:id: recept törlése
+ 
 ##Interfész
 ![Interfész](https://github.com/geguabi/cookbook/blob/master/documentation/page_view.png)
 

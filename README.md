@@ -48,7 +48,8 @@ A használt node modulok listája:
 
 
 ##Modellek
-![Adatbázis modell](http://gaborgergaly.ininet.hu/cookbook_models.png)
+![Adatbázis modell](https://cloud.githubusercontent.com/assets/14271837/11242913/2a419f02-8e05-11e5-8eeb-e5680734b39c.png)
+
 
 Itt egy kép látható az adatbázis modellről. A user modell tükrözi a felhasználót akinek egy egyedi adattagja van,
 a felhasználónév, tehát két ugyanolyan felhasználó nem szerepelhet az adatbázisban.

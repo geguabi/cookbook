@@ -7,7 +7,9 @@
 - [Végpontok] (https://www.github.com/geguabi/cookbook#végpontok)
 - [Felhasználói interfész](https://www.github.com/geguabi/cookbook#interfész)
 - [Tesztelés](https://www.github.com/geguabi/cookbook#tesztek)
-- [További fejlesztési lehetőségek](https://www.github.com/geguabi/cookbook#További fejlesztési lehetőség)
+- [Fejlesztői környezet](https://www.github.com/geguabi/cookbook#fejlesztői)
+- [További fejlesztési lehetőségek](https://www.github.com/geguabi/cookbook#további)
+
 
 
 ##Leírás
@@ -100,10 +102,11 @@ hogy később megtalálható legyen az adatbázisban módosítás, vagy törlés
 - Szerkesztés/Törlés funkció müködik
 
 
-##Fejlesztés és felhasználás
+##Fejlesztői környezet
 
 
-A project a Cloud9 webes felüleletén készült Windows operációs rendszer alatt.
+A project a Cloud9 online kódszerkesztő felüleletén készült Windows operációs rendszer alatt.
+Információ a rendszerről: https://c9.io
 Futtatáshoz, továbbfejlesztéshez le kell tölteni a projectet ZIP formátumba és Cloud9-ba vagy saját fejlesztőrendszerbe bemásolni, kicsomagolni és telepíteni a függőségeket (lsd. Technológiák pontot).
 Az alkalmazás futtatható Heroku alatt is: https://ggcookbook.herokuapp.com
 

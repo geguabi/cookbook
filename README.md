@@ -7,6 +7,7 @@
 - [Végpontok] (https://www.github.com/geguabi/cookbook#végpontok)
 - [Felhasználói interfész](https://www.github.com/geguabi/cookbook#interfész)
 - [Tesztelés](https://www.github.com/geguabi/cookbook#tesztek)
+- [További fejlesztési lehetőségek](https://www.github.com/geguabi/cookbook#További fejlesztési lehetőség)
 
 
 ##Leírás
@@ -90,22 +91,7 @@ Két fő tesztelési metódust használtam a feladatban.
 * Az első az egy mocha/chai típusú tesztelés a user.test.js fájlban. Ez teszteli azt, hogy egy modelt létre lehet-e hozni,
 hogy később megtalálható legyen az adatbázisban módosítás, vagy törlés céljából.
 
-* A másik egy funcionális tesztelés volt, aminek keretében kézzel beirogatva, végpontokat ellenőrízve teszteltem, hogy az alkalmazás az elvárt módon működik-e
-
-##Fejlesztés és felhasználás
-
-
-A project a Cloud9 webes felüleletén készült Windows operációs rendszer alatt.
-Futtatáshoz, továbbfejlesztéshez le kell tölteni a projectet és Cloud9-ba vagy saját fejlesztőrendszerbe bemásolni és telepíteni
-a függőségeket (lsd. Technológiák pontot).
-Az alkalmazás futtatható Heroku alatt is: https://ggcookbook.herokuapp.com
-
-A fejlesztés zökkenőmentes menetéhez szükség lesz 2GB memóriára és valamilyen 2 magos processzorra minimum.
-
-
-##Funkció lista 
-
-
+* A másik egy funcionális tesztelés volt, aminek keretében kézzel beirogatva, végpontokat ellenőrízve teszteltem, hogy az alkalmazás az elvárt módon működik-e:
 - Regisztráció, login oldal működik, a jelszó bcrypt-el kódolva kerül az adatbázisba
 - A neptun kód egyedi, csak egy lehet mindegyikből, ha ez nem teljesül, akkor hibát jelez a program
 - session működik
@@ -113,6 +99,18 @@ A fejlesztés zökkenőmentes menetéhez szükség lesz 2GB memóriára és vala
 - Hozzávalók, elkészítési módok hozzáadása elérhető
 - Szerkesztés/Törlés funkció müködik
 
-További fejlesztési lehetőség:
+
+##Fejlesztés és felhasználás
+
+
+A project a Cloud9 webes felüleletén készült Windows operációs rendszer alatt.
+Futtatáshoz, továbbfejlesztéshez le kell tölteni a projectet ZIP formátumba és Cloud9-ba vagy saját fejlesztőrendszerbe bemásolni, kicsomagolni és telepíteni a függőségeket (lsd. Technológiák pontot).
+Az alkalmazás futtatható Heroku alatt is: https://ggcookbook.herokuapp.com
+
+A fejlesztés zökkenőmentes menetéhez szükség lesz 2GB memóriára és valamilyen 2 magos processzorra minimum.
+
+
+##További fejlesztési lehetőség
+
 - többféle tesztelési és validációs lehetőség implementálása
 - többféle felhasználói szerepkör megvalósítása (pl.: legyenek adminok, törölni-módosítani csak a receptet rögzített user tudja stb)

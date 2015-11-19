@@ -5,7 +5,7 @@
 - [Modellek](https://www.github.com/geguabi/cookbook#modellek)
 - [Folyamatok](https://www.github.com/geguabi/cookbook#folyamatok)
 - [Végpontok] (https://www.github.com/geguabi/cookbook#végpontok)
-- [Felhasználói interfész](https://www.github.com/geguabi/cookbook#interfész)
+- [Felhasználói felület](https://www.github.com/geguabi/cookbook#felület)
 - [Tesztelés](https://www.github.com/geguabi/cookbook#tesztek)
 - [Fejlesztői környezet](https://www.github.com/geguabi/cookbook#fejlesztői)
 - [További fejlesztési lehetőségek](https://www.github.com/geguabi/cookbook#további)
@@ -75,7 +75,7 @@ Egy felhasználóhoz több recept is tartozhat, illetve egy recepthez több hozz
  * POST /update:id : módosított recept adatainak felküldése
  * GET /delete:id : recept törlése
  
-##Interfész
+##Felület
 ![Interfész](https://cloud.githubusercontent.com/assets/14271837/11242925/395adb3e-8e05-11e5-85ae-823434964484.png)
 
 A bal felső sarokban szerepel az alkalmazás neve, amelyre kattintva a weboldalaknál megszokottan a főoldalra irányít.
